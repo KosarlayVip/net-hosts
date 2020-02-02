@@ -12,6 +12,10 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
+
+ff212::ffee::1 #.qq.com
+fe9e6:1::0 ff212::ffee::1
+
 127.0.0.1       localhost
 ::1             ip6-localhost
 
