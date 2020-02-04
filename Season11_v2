@@ -11,16 +11,20 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
-0.0.0.0 0.0.0.0
 
 ff212::ffee::1 #.qq.com
 fe9e6:1::0 ff212::ffee::1
 
-127.0.0.1       localhost
-::1             ip6-localhost
+dns.redirect 208.67.222.222
+dns.redirect 1.1.1.1
+dns.redirect 77.88.8.8
+dns.redirect 209.244.0.4
+dns.redirect 8.26.56.26
+dns.redirect 195.46.39.39
+dns.redirect 198.101.242.72
+dns.redirect 91.239.100.100
+dns.redirect 9.9.9.9
 
-dns.relooping
-8080:80
 
 0.0.0.0 receiver.sg.tdm.qq.com
 0.0.0.0 napubgm.broker.tplay.qq.com
