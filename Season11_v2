@@ -1,8 +1,6 @@
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
-0.0.0.0 local
 255.255.255.255 broadcasthost
-::1 localhost
 ::1 ip6-localhost
 ::1 ip6-loopback
 fe80::1%lo0 localhost
@@ -10,10 +8,8 @@ ff00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
+ff02::2 ip6-cbt
 ff02::3 ip6-allhosts
-
-ff212::ffee::1 #.qq.com
-fe9e6:1::0 ff212::ffee::1
 
 dns.redirect 208.67.222.222
 dns.redirect 1.1.1.1
@@ -24,7 +20,6 @@ dns.redirect 195.46.39.39
 dns.redirect 198.101.242.72
 dns.redirect 91.239.100.100
 dns.redirect 9.9.9.9
-
 
 0.0.0.0 receiver.sg.tdm.qq.com
 0.0.0.0 napubgm.broker.tplay.qq.com
@@ -43,17 +38,16 @@ dns.redirect 9.9.9.9
 0.0.0.0 .superfix.com
 0.0.0.0 .qq.com
 0.0.0.0 .cnzz.com
+0.0.0.0 .cbt.ssapyb.com
 0.0.0.0 .proximabeta.com
 0.0.0.0 .pubgmobile.com
 0.0.0.0 .tencent.com
 0.0.0.0 .sl-reverse.com
 0.0.0.0 .qcloud.com
 0.0.0.0 .twimg.com
-0.0.0.0 .cbt.qq.com
 0.0.0.0 .helpshift.com
 0.0.0.0 .fbsbx.com
 0.0.0.0 .userapi.com
-0.0.0.0 cdn.cbt.ssapyb.com
 0.0.0.0 scgt.reverse.com
 0.0.0.0 app.adjust.com
 0.0.0.0 file.igamecj.com
@@ -66,7 +60,7 @@ dns.redirect 9.9.9.9
 0.0.0.0 scgt.reverse.com
 0.0.0.0 rpgohsnmh.com
 0.0.0.0 app.adjust.com
-0.0.0.0 api.xerox.igamecj
+0.0.0.0 .qq.xerox.cn
 0.0.0.0 ns1.qq.com
 0.0.0.0 ns2.qq.com
 0.0.0.0 ns3.qq.com
