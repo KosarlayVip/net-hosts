@@ -36,9 +36,7 @@ dns.redirect 9.9.9.9
 0.0.0.0 .qqmail.com
 0.0.0.0 .superfix.com
 0.0.0.0 .qq.com
-0.0.0.0 .cn
 0.0.0.0 .cnzz.com
-0.0.0.0 .tencent
 0.0.0.0 .proximabeta.com
 0.0.0.0 .pubgmobile.com
 0.0.0.0 .tencent.com
