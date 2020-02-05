@@ -22,6 +22,13 @@ dns.redirect 198.101.242.72
 dns.redirect 91.239.100.100
 dns.redirect 9.9.9.9
 
+0.0.0.0 lobby.igamecj.com
+0.0.0.0 naping.igamecj.com
+0.0.0.0 euping.igamecj.com
+0.0.0.0 hkping.igamecj.com
+0.0.0.0 saping.igamecj.com
+0.0.0.0 meping.igamecj.com
+0.0.0.0 krping.igamecj.com
 0.0.0.0 gameguardian.net
 0.0.0.0 receiver.sg.tdm.qq.com
 0.0.0.0 napubgm.broker.tplay.qq.com
